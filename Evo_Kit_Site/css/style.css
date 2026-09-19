@@ -1,0 +1,77 @@
+body{
+    margin: 10%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 700px;
+    border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
+    text-align: center;
+}
+
+main{
+    margin-top: 30px;
+    min-height: 1000px;
+    height: 1000px;
+    min-width: 700px;
+    width: 700px;
+    background-color: rgb(255, 242, 224);
+    .fakeHeader{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.lavishly-yours-regular {
+    width: 300px; 
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    h2{
+        text-align: center;
+        line-break: auto;
+    }
+}
+
+section{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    img{
+        height: 100px;
+    }
+    p{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 225px;
+        text-align: justify;
+        line-break: auto;
+    }
+}
+
+article{
+    margin: 30px;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    .textoLateral{
+        height: 100px;
+        margin-right: 30px;
+    }
+    img{
+        height: 425px;
+    }
+}
+
+footer{
+    border-top: 2px solid orange;
+    width: 700px;
+    text-align: center;
+    color: gray;
+}
