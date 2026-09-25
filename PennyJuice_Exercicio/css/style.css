@@ -1,0 +1,97 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    .logotipo{
+        font-weight: 900;
+        font-size: 25px;
+        color: orange;
+    }
+    nav a{
+        margin: 5px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        padding: 20px;
+    }
+    a:hover{
+    background-color: orange;
+    }
+    box-shadow: 0 4px 20px 5px #24242433;
+}
+
+main{
+    section{
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        .textoBotao{
+            margin: 20px;
+            text-align: center;
+            h1{
+                font-weight: 900;
+            }
+            p{
+                margin: 40px;
+                max-width: 500px;
+            }
+            a{
+                box-shadow: inset 0px 6px 5px 0px rgba(255, 251, 29, 0.5);
+                padding: 20px;
+                text-decoration: none;
+                background-color: orangered;
+                font-weight: 600;
+                color: white;
+                border-radius: 15px;
+            }
+            a:hover{
+                box-shadow: inset 0px 4px 5px 0px rgba(0, 0, 0, 0.20);
+                background-color: #d8d8d8;
+                color: orangered;
+            }
+        }
+        img{
+            height: 400px;
+            border-radius: 30px;
+        }
+    }
+    h2{
+        margin-top: 50px;
+        text-align: center;
+        font-weight: 900;
+    }
+    .sabores{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        .maca{
+            margin: 20px;
+            padding: 20px;
+            border-bottom: 3px solid purple;
+            border-radius: 20px;
+            box-shadow: 0 5px 5px 1px #7a1e7a70;
+        }
+        .tropical{
+            margin: 20px;
+            padding: 20px;
+            border-bottom: 3px solid red;
+            border-radius: 20px;
+            box-shadow: 0 5px 5px 1px #c41f1f70;
+        }
+        .uva{
+            margin: 20px;
+            padding: 20px;
+            border-bottom: 3px solid magenta;
+            border-radius: 20px;
+            box-shadow: 0 5px 5px 1px #c41fc470;
+        }
+    }
+    padding-bottom: 75px;
+    border-bottom: 2px solid black;
+}
