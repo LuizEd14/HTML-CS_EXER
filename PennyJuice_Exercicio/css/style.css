@@ -42,7 +42,9 @@ main{
                 max-width: 500px;
             }
             a{
-                box-shadow: inset 0px 6px 5px 0px rgba(255, 251, 29, 0.5);
+                box-shadow: inset 0px 6px 4px 0px rgba(255, 251, 29, 0.5),
+                            inset 0px -4px 4px 0px rgba(114, 23, 0, 0.2),
+                            0px 5px 4px 0px rgba(0, 0, 0, 0.342);
                 padding: 20px;
                 text-decoration: none;
                 background-color: orangered;
@@ -51,7 +53,8 @@ main{
                 border-radius: 15px;
             }
             a:hover{
-                box-shadow: inset 0px 4px 5px 0px rgba(0, 0, 0, 0.20);
+                box-shadow: inset 0px 4px 5px 0px rgba(0, 0, 0, 0.20),
+                                  0px -4px 12px 0px rgba(255, 255, 255, 0.2);
                 background-color: #d8d8d8;
                 color: orangered;
             }
