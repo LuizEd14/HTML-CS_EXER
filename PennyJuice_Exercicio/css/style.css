@@ -52,7 +52,7 @@ main{
                 color: white;
                 border-radius: 15px;
             }
-            a:hover{
+            a:active{
                 box-shadow: inset 0px 4px 5px 0px rgba(0, 0, 0, 0.20),
                                   0px -4px 12px 0px rgba(255, 255, 255, 0.2);
                 background-color: #d8d8d8;
